@@ -16,3 +16,7 @@ touch introducao.txt desenvolvimento.txt conclusao.txt
 
 Passo 5:
 git commit -am "Criando arquivos .txt"
+
+Passo 6:
+git branch desenvolvimento
+git branch revisao
