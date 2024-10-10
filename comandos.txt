@@ -20,3 +20,48 @@ git commit -am "Criando arquivos .txt"
 Passo 6:
 git branch desenvolvimento
 git branch revisao
+
+Passo 7:
+git checkout desenvolvimento
+
+Passo 8: 
+git status
+git add .
+git status
+git commit -am "Criando linhas nos arquivos .txt - branch desenvolvimento"
+
+Passo 9:
+git checkout revisao
+
+Passo 10:
+git status
+git add .
+git status
+git commit -am "Criando linhas nos arquivos .txt - branch revisao"
+
+Passo 11:
+git checkout desenvolvimento
+git merge revisao -m "Mesclando branch desenvolvimento com revisao"
+
+Passo 12:
+git status -- arrumei direto nos arquivos os conflitos
+
+Passo 13:
+git commit -am "Resolvendo conflitos"
+
+Passo 14:
+git log 
+git log --oneline
+git status 
+git add .
+git commit -am "Adicionando prints log e log amigavel"
+git checkout master
+git merge desenvolvimento -m "Inserindo prints na branch correta"
+git commit -am "Colocando prints no lugar correto"
+git log --graph --oneline --all
+git status
+git add .
+git commit -am "Adicionando log graph a branch master"
+
+Passo 15:
+git log --graph --oneline --all
