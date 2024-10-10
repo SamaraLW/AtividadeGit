@@ -10,4 +10,9 @@ vi comandos.txt
 Passo 3:
 git init
 git status
+
+Passo 4:
 touch introducao.txt desenvolvimento.txt conclusao.txt
+
+Passo 5:
+git commit -am "Criando arquivos .txt"
