@@ -1,0 +1,13 @@
+Passo 1:
+git config --global user.name "Samara Librelotto"
+git config --global user.email sasalibrelotto@gmail.com
+
+Passo 2:
+mkdir AtividadeGit
+cd AtividadeGit/
+vi comandos.txt
+
+Passo 3:
+git init
+git status
+touch introducao.txt desenvolvimento.txt conclusao.txt
